@@ -14,6 +14,7 @@
 		0987A88D2BECAE7D0045D361 /* NaverShoppingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0987A88C2BECAE7D0045D361 /* NaverShoppingTests.swift */; };
 		0987A8972BECAE7D0045D361 /* NaverShoppingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0987A8962BECAE7D0045D361 /* NaverShoppingUITests.swift */; };
 		0987A8992BECAE7D0045D361 /* NaverShoppingUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0987A8982BECAE7D0045D361 /* NaverShoppingUITestsLaunchTests.swift */; };
+		0987A8A92BECAF460045D361 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 0987A8A82BECAF460045D361 /* .gitignore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		0987A8922BECAE7D0045D361 /* NaverShoppingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NaverShoppingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0987A8962BECAE7D0045D361 /* NaverShoppingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NaverShoppingUITests.swift; sourceTree = "<group>"; };
 		0987A8982BECAE7D0045D361 /* NaverShoppingUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NaverShoppingUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0987A8A82BECAF460045D361 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +76,7 @@
 		0987A86F2BECAE7C0045D361 = {
 			isa = PBXGroup;
 			children = (
+				0987A8A82BECAF460045D361 /* .gitignore */,
 				0987A87A2BECAE7C0045D361 /* NaverShopping */,
 				0987A88B2BECAE7D0045D361 /* NaverShoppingTests */,
 				0987A8952BECAE7D0045D361 /* NaverShoppingUITests */,
@@ -232,6 +235,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0987A8832BECAE7D0045D361 /* Preview Assets.xcassets in Resources */,
+				0987A8A92BECAF460045D361 /* .gitignore in Resources */,
 				0987A8802BECAE7D0045D361 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
