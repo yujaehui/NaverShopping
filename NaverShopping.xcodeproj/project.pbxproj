@@ -15,6 +15,15 @@
 		0987A8972BECAE7D0045D361 /* NaverShoppingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0987A8962BECAE7D0045D361 /* NaverShoppingUITests.swift */; };
 		0987A8992BECAE7D0045D361 /* NaverShoppingUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0987A8982BECAE7D0045D361 /* NaverShoppingUITestsLaunchTests.swift */; };
 		0987A8A92BECAF460045D361 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 0987A8A82BECAF460045D361 /* .gitignore */; };
+		0987A8B52BECB4A40045D361 /* ShoppingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0987A8B42BECB4A40045D361 /* ShoppingView.swift */; };
+		0987A8B92BECB5660045D361 /* ShoppingItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0987A8B82BECB5660045D361 /* ShoppingItemView.swift */; };
+		0987A8BB2BECBB810045D361 /* ViewModelType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0987A8BA2BECBB810045D361 /* ViewModelType.swift */; };
+		0987A8BD2BECBB970045D361 /* ShoppingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0987A8BC2BECBB970045D361 /* ShoppingViewModel.swift */; };
+		0987A8BF2BECBBBD0045D361 /* Shopping.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0987A8BE2BECBBBD0045D361 /* Shopping.swift */; };
+		0987A8C12BECBBF10045D361 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0987A8C02BECBBF10045D361 /* Network.swift */; };
+		0987A8C72BECC4110045D361 /* APIKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0987A8C62BECC4110045D361 /* APIKey.swift */; };
+		0987A8CB2BECC7480045D361 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0987A8CA2BECC7480045D361 /* SearchView.swift */; };
+		0987A8CD2BECE79E0045D361 /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0987A8CC2BECE79E0045D361 /* Helpers.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +55,15 @@
 		0987A8962BECAE7D0045D361 /* NaverShoppingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NaverShoppingUITests.swift; sourceTree = "<group>"; };
 		0987A8982BECAE7D0045D361 /* NaverShoppingUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NaverShoppingUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		0987A8A82BECAF460045D361 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		0987A8B42BECB4A40045D361 /* ShoppingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingView.swift; sourceTree = "<group>"; };
+		0987A8B82BECB5660045D361 /* ShoppingItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingItemView.swift; sourceTree = "<group>"; };
+		0987A8BA2BECBB810045D361 /* ViewModelType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelType.swift; sourceTree = "<group>"; };
+		0987A8BC2BECBB970045D361 /* ShoppingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingViewModel.swift; sourceTree = "<group>"; };
+		0987A8BE2BECBBBD0045D361 /* Shopping.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shopping.swift; sourceTree = "<group>"; };
+		0987A8C02BECBBF10045D361 /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		0987A8C62BECC4110045D361 /* APIKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIKey.swift; sourceTree = "<group>"; };
+		0987A8CA2BECC7480045D361 /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		0987A8CC2BECE79E0045D361 /* Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +115,10 @@
 		0987A87A2BECAE7C0045D361 /* NaverShopping */ = {
 			isa = PBXGroup;
 			children = (
+				0987A8C32BECBDA30045D361 /* Shopping */,
+				0987A8C22BECBD960045D361 /* Network */,
+				0987A8BA2BECBB810045D361 /* ViewModelType.swift */,
+				0987A8CC2BECE79E0045D361 /* Helpers.swift */,
 				0987A87B2BECAE7C0045D361 /* NaverShoppingApp.swift */,
 				0987A87D2BECAE7C0045D361 /* ContentView.swift */,
 				0987A87F2BECAE7D0045D361 /* Assets.xcassets */,
@@ -128,6 +150,27 @@
 				0987A8982BECAE7D0045D361 /* NaverShoppingUITestsLaunchTests.swift */,
 			);
 			path = NaverShoppingUITests;
+			sourceTree = "<group>";
+		};
+		0987A8C22BECBD960045D361 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				0987A8BE2BECBBBD0045D361 /* Shopping.swift */,
+				0987A8C02BECBBF10045D361 /* Network.swift */,
+				0987A8C62BECC4110045D361 /* APIKey.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		0987A8C32BECBDA30045D361 /* Shopping */ = {
+			isa = PBXGroup;
+			children = (
+				0987A8CA2BECC7480045D361 /* SearchView.swift */,
+				0987A8B42BECB4A40045D361 /* ShoppingView.swift */,
+				0987A8B82BECB5660045D361 /* ShoppingItemView.swift */,
+				0987A8BC2BECBB970045D361 /* ShoppingViewModel.swift */,
+			);
+			path = Shopping;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,8 +304,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0987A8CB2BECC7480045D361 /* SearchView.swift in Sources */,
+				0987A8BF2BECBBBD0045D361 /* Shopping.swift in Sources */,
 				0987A87E2BECAE7C0045D361 /* ContentView.swift in Sources */,
+				0987A8C12BECBBF10045D361 /* Network.swift in Sources */,
+				0987A8CD2BECE79E0045D361 /* Helpers.swift in Sources */,
 				0987A87C2BECAE7C0045D361 /* NaverShoppingApp.swift in Sources */,
+				0987A8C72BECC4110045D361 /* APIKey.swift in Sources */,
+				0987A8B52BECB4A40045D361 /* ShoppingView.swift in Sources */,
+				0987A8BB2BECBB810045D361 /* ViewModelType.swift in Sources */,
+				0987A8BD2BECBB970045D361 /* ShoppingViewModel.swift in Sources */,
+				0987A8B92BECB5660045D361 /* ShoppingItemView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
